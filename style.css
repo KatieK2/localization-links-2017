@@ -1,0 +1,106 @@
+/* html5doctor.com Reset Stylesheet */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { line-height: 1.5; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+nav ul { list-style: none; }
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+ins { background-color: rgba(255, 255, 255, 0.4); text-decoration: none; }
+mark { background-color: rgba(255, 255, 255, 0.4); font-style: inherit; font-weight: bold; }
+del { text-decoration: line-through; }
+em { font-style: italic; }
+strong { font-weight: bold; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px dashed white; width: 80%; margin: 1em auto; padding: 0; }
+input, select { vertical-align: middle; }
+h1 { font-size: 2rem; line-height: 100%; margin-top: .5em; margin-bottom: .5em; }
+h2 { font-size: 1.5rem; line-height: 128.6%; margin-top: 1.143em; }
+h3 { font-size: 1.25rem; margin-top: 1.1em; }
+h4 { margin-top: .5rem; }
+p, ul, ol, dl, pre, code, blockquote { font-size: 1rem; }
+li { margin-bottom: .75%; }
+small, aside { font-size: 0.75em; }
+
+body {
+  color: black;
+  background-color: #ccbb75;
+  background-image: url("light-wool.png");
+  font: 16px/1.6rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: "Monda", sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+header, footer {
+  color: #d6c991;
+  background-color: #3f8754;
+  font-family: "Monda", sans-serif;
+  text-align: center;
+  padding: 1rem;
+  border-top: solid black thick;
+  border-bottom: solid black thick;
+}
+
+main {
+  display: flex;
+}
+
+div.flex-wrapper {
+  flex: 4;
+  padding-bottom: 1rem;
+}
+
+nav {
+  font-size: 85%;
+  padding: .5rem;
+  background-color: #5e9bb4;
+  background-image: url("dark-mosaic.png");
+  overflow: auto;
+  border-right: solid black thick;
+  flex: 1 1 5rem;
+  align-items: stretch;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  background-color: #5e70b4;
+  border: solid 1px black;
+  margin: 0.5rem;
+}
+
+nav a {
+  color: white;
+  padding: .5rem;
+  display:  block;
+}
+
+ul {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+}
+
+ol {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1.7rem;
+}
+
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+a {
+  color: inherit;
+}
