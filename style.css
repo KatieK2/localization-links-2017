@@ -46,6 +46,43 @@ header, footer {
   border-bottom: solid black thick;
 }
 
+footer a {
+  color: inherit;
+}
+
+header p, h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header ul {
+  display:  flex;
+  list-style: none;
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+}
+
+header ul li svg {
+  max-width: 100%;
+  max-height: 3rem;
+  fill: #d6c991;
+}
+
+header ul li label {
+  text-align: center;
+  text-decoration: underline;
+  display: block;
+  color: #d6c991;
+  cursor: pointer;
+}
+
+header ul li:hover label, header ul li:hover a, header ul li:hover svg {
+  color: black;
+  fill: black;
+}
+
 main {
   display: flex;
 }
@@ -53,6 +90,10 @@ main {
 div.flex-wrapper {
   flex: 4;
   padding-bottom: 1rem;
+}
+
+div.flex-wrapper a:hover {
+  color: black;
 }
 
 nav {
@@ -102,5 +143,11 @@ p {
 }
 
 a {
-  color: inherit;
+  color: #5e70b4;
+}
+
+svg.hide {
+  height: 3rem;
+  width: 3rem;
+  display: none;
 }
