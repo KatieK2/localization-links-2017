@@ -76,7 +76,8 @@ header ul li label {
   cursor: pointer;
 }
 
-header ul li:hover label, header ul li:hover a, header ul li:hover svg {
+header ul li:hover label, header ul li:hover a, header ul li:hover svg, 
+header ul li:focus label, header ul li:focus a, header ul li:focus svg {
   color: black;
   fill: black;
 }
@@ -90,7 +91,7 @@ div.flex-wrapper {
   padding-bottom: 1rem;
 }
 
-div.flex-wrapper a:hover {
+div.flex-wrapper a:hover, div.flex-wrapper a:focus {
   color: black;
 }
 
