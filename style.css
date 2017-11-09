@@ -57,6 +57,7 @@ header p, h1 {
 
 header ul {
   display:  flex;
+  justify-content: space-between;
   margin-top: 1rem;
   list-style: none;
   padding-left: 0;
